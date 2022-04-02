@@ -15,7 +15,7 @@ const startGame = async(chatId) => {
       await bot.sendMessage(chatId, 'Отгадывай', gameOptions)
 }
 
-const start = () => {
+const start = () =>   {
   bot.setMyCommands([
     {command: '/start', description: 'начальное приветствие'},
     {command: '/info', description: 'получ инфу о пользоват'},
